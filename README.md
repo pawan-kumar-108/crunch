@@ -8,11 +8,6 @@ Most people stare at spreadsheets and feel nothing. They export CSVs they never 
 
 ---
 
-## Demo Video
-
-
-[![Watch crunch in action](assets/sip.png)](https://youtu.be/JSDuZWMdKNs)
-
 ## What it does
 
 ```
@@ -26,6 +21,12 @@ crunch cagr  <start> <end> <years>     →  compound annual growth rate
 One tool. Two domains. The same math engine underneath.
 
 ---
+
+## Demo Video
+
+
+[![Watch crunch in action](assets/sip.png)](https://youtu.be/JSDuZWMdKNs)
+
 
 ## Installation
 
