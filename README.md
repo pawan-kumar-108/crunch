@@ -76,7 +76,7 @@ cat data.csv | crunch data        # pipe mode also works
 
 ---
 
-### `sip` — SIP Projection
+### 2. `sip` — SIP Projection
 
 ```bash
 crunch sip <monthly_amount> <annual_rate%> <years>
@@ -100,7 +100,7 @@ crunch sip 5000 14 15      # ₹5k/mo, 14% return, 15 years
 
 ---
 
-### 2. `loan` — EMI + Amortization
+### 3. `loan` — EMI + Amortization
 
 ```bash
 crunch loan <principal> <annual_rate%> <years>
@@ -122,7 +122,7 @@ crunch loan 1200000 11.5 5     # ₹12L car loan
 
 ---
 
-### 3. `inf` — Inflation Erosion
+### 4. `inf` — Inflation Erosion
 
 ```bash
 crunch inf <amount> <inflation_rate%> <years>
@@ -140,7 +140,7 @@ crunch inf 500000 7 20
 
 ---
 
-### 4. `cagr` — Compound Annual Growth Rate
+### 5. `cagr` — Compound Annual Growth Rate
 
 ```bash
 crunch cagr <start_value> <end_value> <years>
