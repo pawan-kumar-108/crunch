@@ -62,6 +62,10 @@ crunch data report.csv
 cat data.csv | crunch data        # pipe mode also works
 ```
 
+<p align="center">
+  <img src="assets/data.png" width="900">
+</p>
+
 **What you get per column:**
 - Numeric → mean, median, std dev, range, IQR, skewness (with direction label), kurtosis (tail weight), outlier count (|Z| > 3), sparkline
 - Categorical → count, unique values, null %, top 3 by frequency
@@ -78,6 +82,10 @@ crunch sip <monthly_amount> <annual_rate%> <years>
 crunch sip 10000 12 20     # ₹10k/mo, 12% return, 20 years
 crunch sip 5000 14 15      # ₹5k/mo, 14% return, 15 years
 ```
+
+<p align="center">
+  <img src="assets/sip.png" width="900">
+</p>
 
 **What you get:**
 - Total invested vs estimated corpus
@@ -98,7 +106,9 @@ crunch loan <principal> <annual_rate%> <years>
 crunch loan 5000000 8.5 20     # ₹50L home loan
 crunch loan 1200000 11.5 5     # ₹12L car loan
 ```
-
+<p align="center">
+  <img src="assets/loan.png" width="900">
+</p>
 **What you get:**
 - Monthly EMI
 - Total payment and total interest (the number banks don't advertise)
@@ -144,6 +154,10 @@ crunch cagr 50000 180000 7
 - Trajectory sparkline
 
 ---
+
+<p align="center">
+  <img src="assets/cagr.png" width="900">
+</p>
 
 ## Quick demo (copy-paste ready)
 
