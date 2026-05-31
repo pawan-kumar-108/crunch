@@ -56,7 +56,7 @@ crunch help
 
 ## Usage
 
-### `data` — CSV Statistical Profiler
+### 1. `data` — CSV Statistical Profiler
 
 Feed it any CSV. Get column-level statistics: mean, median, standard deviation, skewness, kurtosis, outlier detection via Z-score, null percentage, top categories, and an ASCII sparkline per numeric column.
 
@@ -100,7 +100,7 @@ crunch sip 5000 14 15      # ₹5k/mo, 14% return, 15 years
 
 ---
 
-### `loan` — EMI + Amortization
+### 2. `loan` — EMI + Amortization
 
 ```bash
 crunch loan <principal> <annual_rate%> <years>
@@ -122,7 +122,7 @@ crunch loan 1200000 11.5 5     # ₹12L car loan
 
 ---
 
-### `inf` — Inflation Erosion
+### 3. `inf` — Inflation Erosion
 
 ```bash
 crunch inf <amount> <inflation_rate%> <years>
@@ -140,7 +140,7 @@ crunch inf 500000 7 20
 
 ---
 
-### `cagr` — Compound Annual Growth Rate
+### 4. `cagr` — Compound Annual Growth Rate
 
 ```bash
 crunch cagr <start_value> <end_value> <years>
@@ -244,5 +244,3 @@ The terminal is where developers already live. A tool that fits there, that cost
 MIT — use it, fork it, alias it in your `.bashrc`.
 
 ---
-
-*Built for the Garage Inference hackathon. 240 lines. Zero crashes. Ships.*
