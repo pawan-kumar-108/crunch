@@ -22,10 +22,9 @@ One tool. Two domains. The same math engine underneath.
 
 ---
 
-## Demo Video
+## Demo
 
-
-[![Watch crunch in action](assets/sip.png)](https://youtu.be/JSDuZWMdKNs)
+[![Watch crunch in action](https://img.youtube.com/vi/JSDuZWMdKNs/maxresdefault.jpg)](https://youtu.be/JSDuZWMdKNs)
 
 
 ## Installation
