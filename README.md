@@ -22,7 +22,7 @@ One tool. Two domains. The same math engine underneath.
 
 ---
 
-## Demo
+## Demo Video
 
 [![Watch crunch in action](https://img.youtube.com/vi/JSDuZWMdKNs/maxresdefault.jpg)](https://youtu.be/JSDuZWMdKNs)
 
